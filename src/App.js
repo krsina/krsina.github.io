@@ -1,12 +1,13 @@
 import React from 'react';
 import Tabs from './components/Tabs';
+import Contact from './components/Contact';
 import './App.css';
 function App() {
   return (
     <article className="bg-custom-color mt-8 gap-16 pb-16 max-w-2xl mx-auto items-center">
         <section className="flex flex-col items-center md:flex-row-reverse md:items-center md:justify-between">
           <img className="w-52 rounded-lg" src="profilepicture.png" alt="profile"></img>
-          <div className="flex flex-col items-center md:items-start mr-2 mb-20">
+          <div className="flex flex-col items-center md:items-start mr-2 mb-10">
             <h1 className="title text-5xl font-calistoga">hi krisna here 👋</h1>
             <p className="mt-4 font-inter font-medium">
               {/* Update my age */}
@@ -19,7 +20,7 @@ function App() {
             </p>
           </div>
         </section>
-
+        <Contact />
         <Tabs />
       </article>
   );

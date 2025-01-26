@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-color": '#f0f4f8',
+      },
       fontFamily: {
         calistoga: ['Calistoga', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
